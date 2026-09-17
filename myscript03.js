@@ -17,16 +17,16 @@ console.log('111' === 111) //false
 let = 10
 //x = x + 5 * 9 - 2 //ย่อเป็น x+= 5 * 9 - 2
 
-//& ใช้ตรวจสอบค่า null , undefined , false , 0 ,NaN ''
-
+//&& ใช้ตรวจสอบค่า null , undefined , false , 0 ,NaN ''
+//เครื่องหมาย nulllish coales
 let a = null
 let b = 20
 let c = ''
-let d 
+let d
 
 
 console.log(a && 'Wow')
-console.log(b &&'Hello')
+console.log(b && 'Hello')
 console.log(c && 'SAU')
 console.log(d && 123456)
 console.log(50 * 'abcd' && 'IoT')
